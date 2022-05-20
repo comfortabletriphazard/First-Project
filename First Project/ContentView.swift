@@ -11,7 +11,7 @@ struct ContentView: View {
     @State var total = ""
     var body: some View {
         VStack {
-            Text("Tip Calculator")
+            Text("Trip Calculator")
                 .padding()
             HStack {
             Text("£")
