@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var total = ""
     var body: some View {
-        Text("Hello, my world!")
-            .padding()
+        VStack {
+            Text("Tip Calculator")
+                .padding()
+            HStack {
+            Text("£")
+            Text("Amount")
+        }
+        }
     }
 }
 
