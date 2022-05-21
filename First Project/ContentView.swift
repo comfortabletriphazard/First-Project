@@ -12,11 +12,16 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Trip Calculator")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .foregroundColor(Color.gray)
                 .padding()
             HStack {
-            Text("£")
-            Text("Amount")
+                Text("£")
+                TextField("Amount", text: $total)
+                Text("\(total)")
         }
+            .padding(.all)
         }
     }
 }

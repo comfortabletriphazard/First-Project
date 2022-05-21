@@ -13,12 +13,23 @@
 		2FAF78B82836F5BF008D74C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAF78B72836F5BF008D74C2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2FD4F1D22839928600944F28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD4F1CE2839928500944F28 /* First App.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52F582D3271E5E5E00702B5D;
+			remoteInfo = "First App";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		2FAF78AD2836F5BC008D74C2 /* First Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FAF78B02836F5BC008D74C2 /* First_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_ProjectApp.swift; sourceTree = "<group>"; };
 		2FAF78B22836F5BC008D74C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FAF78B42836F5BF008D74C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FAF78B72836F5BF008D74C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FD4F1CE2839928500944F28 /* First App.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "First App.xcodeproj"; path = "../../../../Downloads/Ex_Files_Building_Your_First_iOS_15_App/Exercise Files/Chapter 03/total/final/First App/First App.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +73,18 @@
 		2FAF78B62836F5BF008D74C2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				2FD4F1CE2839928500944F28 /* First App.xcodeproj */,
 				2FAF78B72836F5BF008D74C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FD4F1CF2839928500944F28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD4F1D32839928600944F28 /* First App.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,12 +133,28 @@
 			mainGroup = 2FAF78A42836F5BC008D74C2;
 			productRefGroup = 2FAF78AE2836F5BC008D74C2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2FD4F1CF2839928500944F28 /* Products */;
+					ProjectRef = 2FD4F1CE2839928500944F28 /* First App.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2FAF78AC2836F5BC008D74C2 /* First Project */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2FD4F1D32839928600944F28 /* First App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "First App.app";
+			remoteRef = 2FD4F1D22839928600944F28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2FAF78AB2836F5BC008D74C2 /* Resources */ = {
@@ -267,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"First Project/Preview Content\"";
+				DEVELOPMENT_TEAM = 53NP7Y6C4M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"First Project/Preview Content\"";
+				DEVELOPMENT_TEAM = 53NP7Y6C4M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
