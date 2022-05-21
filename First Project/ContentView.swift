@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     @State var total = ""
+    @State var tipPercent = 15.0
     var body: some View {
         VStack {
-            Text("Trip Calculator")
+            Text("Tip Calculator")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(Color.gray)
@@ -22,6 +23,11 @@ struct ContentView: View {
                 Text("\(total)")
         }
             .padding(.all)
+            HStack {
+                Slider(value: $tipPercent, in: 1...30, step: 1.0)
+                Text("\(Int(tipPercent))%")
+            }
+            .padding()
         }
     }
 }
