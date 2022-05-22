@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var total = ""
+    @State var total = "100"
     @State var tipPercent = 15.0
     var body: some View {
         VStack {
@@ -28,6 +28,12 @@ struct ContentView: View {
                 Text("\(Int(tipPercent))%")
             }
             .padding()
+            if let totalNum = Double(total) {
+                Text("Tip Amount: £\(totalNum * tipPercent / 100.0, specifier: "%0.2f")")
+            } else {
+                Text("Please enter numbers only")
+            }
+            
         }
     }
 }

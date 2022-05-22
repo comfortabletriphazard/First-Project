@@ -11,6 +11,7 @@
 		2FAF78B32836F5BC008D74C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF78B22836F5BC008D74C2 /* ContentView.swift */; };
 		2FAF78B52836F5BF008D74C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAF78B42836F5BF008D74C2 /* Assets.xcassets */; };
 		2FAF78B82836F5BF008D74C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAF78B72836F5BF008D74C2 /* Preview Assets.xcassets */; };
+		2FD4F1DB28399C9E00944F28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4F1DA28399C9E00944F28 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		2FAF78B42836F5BF008D74C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FAF78B72836F5BF008D74C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FD4F1CE2839928500944F28 /* First App.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "First App.xcodeproj"; path = "../../../../Downloads/Ex_Files_Building_Your_First_iOS_15_App/Exercise Files/Chapter 03/total/final/First App/First App.xcodeproj"; sourceTree = "<group>"; };
+		2FD4F1DA28399C9E00944F28 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				2FAF78B02836F5BC008D74C2 /* First_ProjectApp.swift */,
 				2FAF78B22836F5BC008D74C2 /* ContentView.swift */,
+				2FD4F1DA28399C9E00944F28 /* ContentView.swift */,
 				2FAF78B42836F5BF008D74C2 /* Assets.xcassets */,
 				2FAF78B62836F5BF008D74C2 /* Preview Content */,
 			);
@@ -175,6 +178,7 @@
 			files = (
 				2FAF78B32836F5BC008D74C2 /* ContentView.swift in Sources */,
 				2FAF78B12836F5BC008D74C2 /* First_ProjectApp.swift in Sources */,
+				2FD4F1DB28399C9E00944F28 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
